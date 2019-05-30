@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+main {
+	background-color: #0d5825;
+	color: white;
+	font-size: 25px;
+	width: 1000px;
+	height: 600px;
+    padding: 60px;
+	text-align: center;
+}
+q {
+	font-weight: bold;
+}
+
+.wrapper {
+	line-height: 10px;
+}
+
+.card {
+   padding: 100px;
+
+}
+
+.first {
+	max-width: 150px;
+	transform: rotate(-25deg);
+	position: relative;
+	left: 100px;
+	bottom: 5px;
+}
+
+.first:hover {
+	transform: translateY(-20px) rotate(-25deg);
+	transition: transform 0.5s ease;
+}
+
+.second {
+    max-width: 150px;
+    transform: rotate(-11deg);
+    position: relative;
+}
+
+.second:hover {
+    transform: translateY(-20px) rotate(-11deg);
+    transition: transform 0.5s ease;
+}
+
+.third {
+	max-width: 150px;
+	transform: rotate(+7deg);
+	position: relative;
+	right: 100px;
+	top: 17px;
+}
+
+.third:hover {
+	transform: translateY(-20px) rotate(+7deg);
+	transition: transform 0.5s ease;
+}

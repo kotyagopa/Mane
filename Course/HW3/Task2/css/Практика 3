@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	><div class="box">
+	<div calss="block-1">
+		<h3>1</h3>
+		<p>Lprem fmfk kfofkofke</p>
+	</div>
+	<div calss="block-2">
+		<h3>2</h3>
+		<p>Lprem fmfk kfofkofke</p>
+	</div>
+	<div calss="block-3">
+		<h3>3</h3>
+		<p>Lprem fmfk kfofkofke</p>
+	</div>
+</div>
+</body>
+</html

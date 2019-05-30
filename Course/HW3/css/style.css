@@ -1,0 +1,27 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+main {
+	padding: 60px;
+	line-height: 20px;
+}
+span {
+	color: green;
+}
+.img-1 {
+  float: left;
+  margin-left: 2px;
+}
+.first {
+	margin-left: 200px;
+}
+.img-2 {
+  float: right;
+  margin-right: 2px;
+}

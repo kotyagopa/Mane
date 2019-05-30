@@ -1,0 +1,166 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Dosis;
+	font-size: medium;
+	display: block;
+	overflow: auto;
+}
+
+.content {
+	he
+}
+
+h1,
+button {
+	font-family: Oswald; 
+}
+
+.container {
+	position: relative;
+	width: 570px;
+	margin: 30px;
+	padding: 10px 15px 50px 50px;
+	background-color: #f6fcff;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+}
+
+.container1 {
+	position: relative;
+	width: 570px;
+	margin: 30px;
+	padding: 10px 15px 50px 50px;
+	background-color: #f6fcff;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+	order: -1;
+}
+
+h1 {
+	line-height: 50px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h1,
+.heading {
+	color: #7ea2b3;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.image {
+	height: 30%;
+	width: 55%;
+	position: relative;
+	left: 30px;
+}
+
+.image img{
+	height: 100%;
+}
+
+.move {
+	border: 1px solid #97b621;
+	border-radius: 30px;
+	color: #fff;
+	background-color: #97b621;
+	font-size: 15px;
+	line-height: 5px; 
+	overflow: auto;
+	text-transform: uppercase;
+	padding: 7px 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.txt {
+	font-size: 10px;
+}
+
+.text {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.tab {
+	text-align: center;
+	width: 150px;
+	border: 1px solid #97b621;
+	border-radius: 30px;
+	background-color: #fff;
+	color: #97b621;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	left: 45%;
+	top: 1260px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+
+@media (min-width: 1023px) {
+
+	.container {
+		margin: 30px 0px;
+		width: 50%;
+		display: relative;
+		top: 40px;
+		right: 110px;
+		padding: 30px;
+	}
+
+	.container1 {
+		margin: 30px 0px;
+		width: 50%;
+		display: relative;
+		top: 40px;
+		left: 110px;
+		padding: 30px;
+	}
+
+	.image img{
+		margin: 30px 0px;
+		width: 85%;
+		position: relative;
+		left: 50px
+	}
+
+	.content {
+		display: flex;
+	}
+
+
+@media (min-width: 328px) {
+
+	.content {
+		width: 100%;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.tab {
+	text-align: center;
+	width: 150px;
+	border: 1px solid #97b621;
+	border-radius: 30px;
+	background-color: #fff;
+	color: #97b621;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	left: 45%;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	}
